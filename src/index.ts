@@ -1,12 +1,12 @@
 import type { API } from 'homebridge';
 
 import { PLATFORM_NAME } from './settings.js';
-import { platformhomebridgeheaternet } from './platform.js';
+import { DemoHomebridgePlatform } from './platform.js';
 
 
 /**
  * This method registers the platform with Homebridge
  */
 export default (api: API) => {
-  api.registerPlatform(PLATFORM_NAME, platformhomebridgeheaternet);
+  api.registerPlatform(PLATFORM_NAME, DemoHomebridgePlatform);
 };

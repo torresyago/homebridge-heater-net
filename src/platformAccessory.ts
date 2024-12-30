@@ -1,13 +1,13 @@
 import type { CharacteristicValue, PlatformAccessory, Service } from 'homebridge';
 
-import type { platformhomebridgeheaternet } from './platform.js';
+import type { DemoHomebridgePlatform } from './platform.js';
 
 /**
  * Platform Accessory
  * An instance of this class is created for each accessory your platform registers
  * Each accessory may expose multiple services of different service types.
  */
-export class ExamplePlatformAccessory {
+export class DemoPlatformAccessory {
   private service: Service;
 
   /**
@@ -20,7 +20,7 @@ export class ExamplePlatformAccessory {
   };
 
   constructor(
-    private readonly platform: platformhomebridgeheaternet,
+    private readonly platform: DemoHomebridgePlatform,
     private readonly accessory: PlatformAccessory,
   ) {
     // set accessory information
