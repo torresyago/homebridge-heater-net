@@ -1,6 +1,6 @@
 import type { CharacteristicValue, PlatformAccessory, Service } from 'homebridge';
 
-import type { platform-homebridge-heater-net } from './platform.js';
+import type { platformhomebridgeheaternet } from './platform.js';
 
 /**
  * Platform Accessory
@@ -20,7 +20,7 @@ export class ExamplePlatformAccessory {
   };
 
   constructor(
-    private readonly platform: platform-homebridge-heater-net,
+    private readonly platform: platformhomebridgeheaternet,
     private readonly accessory: PlatformAccessory,
   ) {
     // set accessory information
