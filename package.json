@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-heater-net",
+  "name": "homebridge heater network controlled",
   "displayName": "homebridge-heater-net",
   "type": "module",
   "version": "1.0.0",
