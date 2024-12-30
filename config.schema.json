@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "homebridge-heater-net",
   "pluginType": "platform",
   "singular": true,
   "strictValidation": false,
